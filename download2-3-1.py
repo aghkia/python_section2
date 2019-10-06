@@ -9,7 +9,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 url = "https://www.inflearn.com/"
 
 mem = req.urlopen(url)
-
+print('hi')
 #print(type(mem))
 
 #print("geturl", mem.geturl())
